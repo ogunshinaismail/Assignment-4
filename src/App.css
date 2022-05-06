@@ -26,14 +26,6 @@
   justify-content: space-between;
   align-items: center;
 }
-
-/* .filter {
-  width: 100%;
-  margin: 4rem auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-} */
 .search-btn {
   background: #ffffff;
   height: 43px;
@@ -122,9 +114,7 @@
 }
 .movie-details {
   width: 90%;
-  margin: 2rem auto;
-  /* display: grid;
-  grid-template-columns: 50% 50%; */
+  margin: 4rem auto;
   display: flex;
   justify-content: space-evenly;
   gap: 2rem;
@@ -138,6 +128,7 @@
 .tagline {
   font-weight: 500;
   color: #181313;
+  margin-top: .4rem;
 }
 .date {
   font-size: 13px;
