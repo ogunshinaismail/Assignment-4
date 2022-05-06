@@ -4,6 +4,7 @@ import Navbar from './Navbar';
 import Home from './Home';
 import About from './About';
 import Contact from './Contact';
+import Moviedetails from './Moviedetails';
 
 function App() {
   return (
@@ -15,10 +16,13 @@ function App() {
             <Home />
           </Route>
           <Route path='/about'>
-            <About />
+            <About title="About Us"/>
           </Route>
           <Route path='/contact'>
-            <Contact />
+            <Contact title="Contact Us"/>
+          </Route>
+          <Route path="/movie/:id">
+            <Moviedetails />
           </Route>
         </Switch> 
       </div>
